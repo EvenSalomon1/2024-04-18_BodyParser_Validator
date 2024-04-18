@@ -1,0 +1,23 @@
+1. Datenmodell
+2. Endpoints
+3. Server aufsetzen
+-> siehe Mias Liste für genaue Steps
+4. Frontend aufsetzen
+
+Datenmodell
+Gästebucheintrags-Formular:
+
+- name
+- surname
+- email
+- message
+
+Endpoints
+
+POST /api/v1/entries
+GET /api/v1/entries
+
+Frontend
+- Homepage mit Fetch und folgenden zwei Komponenten
+  - AddnewEntry
+  - RenderEntries
